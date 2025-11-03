@@ -15,9 +15,9 @@
             <a href="https://www.linkedin.com/"><img src="./linkedin_logo.svg" alt="Logo" class="logo" width="25px" height="25px"></a>
             <div class="switchbox">
                 <div class="centerbox">
-                    <a href="#aboutme" style="margin:10px">About Me</a>
-                    <a href="#contact" style="margin:10px">Contact Info</a>
-                    <a href="#publication" style="margin:10px">Publications</a>
+                    <button class="tab-button active" data-tab="tab1">About Me</button>
+                    <button class="tab-button active" data-tab="tab2">Contact Information</button>
+                    <button class="tab-button active" data-tab="tab3">Publications</button>
                 </div>
     	        <label class="switch">
     	            <input type="checkbox" id="colortoggle">
@@ -36,24 +36,20 @@
         <div class="imgbox-left">
             <img src="placeholder.svg" alt="Paris" width="100px" height="100px">
         </div>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo voluptate quis quae! Accusantium impedit vero nemo deserunt reprehenderit quos laborum tempore temporibus architecto similique, laudantium aspernatur quidem possimus, harum illum.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo voluptate quis quae! Accusantium impedit vero nemo deserunt reprehenderit quos laborum tempore temporibus architecto similique, laudantium aspernatur quidem possimus, harum illum.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo voluptate quis quae! Accusantium impedit vero nemo deserunt reprehenderit quos laborum tempore temporibus architecto similique, laudantium aspernatur quidem possimus, harum illum.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo voluptate quis quae! Accusantium impedit vero nemo deserunt reprehenderit quos laborum tempore temporibus architecto similique, laudantium aspernatur quidem possimus, harum illum.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo voluptate quis quae! Accusantium impedit vero nemo deserunt reprehenderit quos laborum tempore temporibus architecto similique, laudantium aspernatur quidem possimus, harum illum.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo voluptate quis quae! Accusantium impedit vero nemo deserunt reprehenderit quos laborum tempore temporibus architecto similique, laudantium aspernatur quidem possimus, harum illum.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo voluptate quis quae! Accusantium impedit vero nemo deserunt reprehenderit quos laborum tempore temporibus architecto similique, laudantium aspernatur quidem possimus, harum illum.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo voluptate quis quae! Accusantium impedit vero nemo deserunt reprehenderit quos laborum tempore temporibus architecto similique, laudantium aspernatur quidem possimus, harum illum.</p>
-        <br>
-        <section id="contact">
+        <div id="tab1" class="tab-content active">
+            <h2>About Me</h2>
+            <p>This is the content for the first tab.</p>
+        </div>
+        <div id="tab2" class="tab-content">
             <h2>Contact Info</h2>
-        </section>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quibusdam officia? Rem consequuntur explicabo, doloribus voluptate et provident quod accusamus assumenda, inventore quaerat fuga impedit ut consectetur amet unde placeat.</p>
-        <br>
-        <section id="publication">
+            <p>This is the content for the second tab.</p>
+        </div>
+        <div id="tab3" class="tab-content">
             <h2>Publications</h2>
-        </section>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quibusdam officia? Rem consequuntur explicabo, doloribus voluptate et provident quod accusamus assumenda, inventore quaerat fuga impedit ut consectetur amet unde placeat.</p>
+            <p>This is the content for the third tab.</p>
+        </div>
+
+
     </div>
     <script src="logic.js"></script>
 </body>
